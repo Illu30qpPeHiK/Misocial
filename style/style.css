@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     width: 100%;
     padding: 0;
@@ -134,10 +137,15 @@ header .header__main {
     margin-top: 45px;
     margin-bottom: 25px;
 }
+header .header__main .container .title .text {
+    width: 325px;
+    margin-left: calc(50% - 162px);
+}
 .header__main p {
     width: 375px;
-    margin-left: calc(50% - 187.5px);
+    margin-left: calc(50% - 187px);
 }
+
 .header__main .downscroll{
     width: 65px;
     height: 65px;
@@ -152,6 +160,7 @@ header .header__main {
     width: 65px;
     height: 65px;
 }
+
 main {
     width: 100%;
     
